@@ -28,15 +28,12 @@ Dependencies used:
 ## Usage
 Run the scraper:
 
-    ikman webscraper.py
+    python ikman webscraper.py
 
 You will be prompted to enter:
-1. The start URL (e.g. `https://ikman.lk/en/ads/sri-lanka/mobile-phones`)
-2. The number of pages to scrape.
+1. The start URL (e.g. `https://ikman.lk/en/ads/sri-lanka/mobile-phones`) (I made it this way so user could search for something, add filters and paste the url bar link straight into the scraper)  
+2. The number of pages to scrape. (ikman.lk loops back to first page after 400+ pages so if you wanna scrape as much pages as possible enter maximum of 400 pages) 
 
 Output will be saved as:
 
     phones_YYYY-MM-DD_HH-MM-SS.csv
-
-## Example
-
